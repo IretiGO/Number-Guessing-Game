@@ -1,4 +1,9 @@
-Number Guessing Game - Pseudocode
+# Number Guessing Game - Pseudocode
+
+## Project Author - Ireti George
+## Peer Reviewer - Blessing Adeyemi
+
+## Description - A simple number guessing game where the program selects a number from 1-10 and player plays till the secret number is guessed.
 
 1. Start
 2. Generate a random number and store it in SECRET
@@ -25,4 +30,3 @@ e. IF "attempt" is < SECRET
         ELSE "attempt" = "Correct! You guessed it"
       EXIT REPEAT loop
 4. END
-code .
