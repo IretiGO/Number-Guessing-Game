@@ -33,7 +33,7 @@ e. Else:
 
 4. END
 
-#Suggestions
+#Blessing's Suggestions
 
 1. Improve readability/formatting for all IF-statements
 2. Whats the execution order of your IF statements?
