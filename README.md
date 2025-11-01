@@ -20,24 +20,30 @@ Input field should read as "ATTEMPT"
 b. IF "attempt" is not an integer:
 
     - Display "Pick a whole number between 1 and 10"
-    - CONTINUE to next attempt
+    - CONTINUE to next iteration of the loop
+     
+c. c. IF **ATTEMPT** is less than **SECRET**:
+   - Display "Wrong! Number too low. Guess again"
 
- c. IF "attempt" is < SECRET:
-        - Display "Wrong! Number too low. Guess again"
-    Elif "attempt" is > SECRET:
-        - Display "Wrong! Number too high. Guess again"
-    ELSE
-        - "attempt" = "Correct! You guessed it"
-        EXIT REPEAT loop
+   ELSE IF **ATTEMPT** is greater than **SECRET**:
+   - Display "Wrong! Number too high. Guess again"
 
-4. END
+   ELSE (ATTEMPT = SECRET):
+   - Display "Correct! You guessed it"
+   - **EXIT** REPEAT loop
 
-#Blessing's Suggestions
+      
+4. **END**
 
-1. Improve readability/formatting for all IF-statements
-2. Whats the execution order of your IF statements?
-3. The hints to be given according to the task details is only if guess is too low or too high.
-4. The only thing that should trigger the end of loop is if guess is correct
+
+
+
+
+**Blessing's Feedback:**
+- Improve readability/formatting for all IF-statements
+- Whats the execution order of your IF statements?
+- The hints to be given according to the task details is only if guess is too low or too high.
+- The only thing that should trigger the end of loop is if guess is correct
 
 
 **Action taken:** cleaned algorithm and removed duplicate SECRET definition.
