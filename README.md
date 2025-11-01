@@ -29,4 +29,5 @@ e. IF "attempt" is < SECRET
         - Display "Wrong! Number too high. Guess again"
         ELSE "attempt" = "Correct! You guessed it"
       EXIT REPEAT loop
+      
 4. END
