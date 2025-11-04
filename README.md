@@ -17,20 +17,22 @@
 a. Display "Guess a number between 1 and 10"
 Input field should read as "ATTEMPT"
 
-b. IF "attempt" is not an integer:
+b. IF "ATTEMPT" is not an integer:
 
     - Display "Pick a whole number between 1 and 10"
     - CONTINUE to next iteration of the loop
      
-c. c. IF **ATTEMPT** is less than **SECRET**:
-   - Display "Wrong! Number too low. Guess again"
+c.
 
-   ELSE IF **ATTEMPT** is greater than **SECRET**:
-   - Display "Wrong! Number too high. Guess again"
+    - IF ATTEMPT is less than SECRET:
+      - Display "Wrong! Number too low. Guess again"
+    - ELSE IF ATTEMPT is greater than SECRET:
+      - Display "Wrong! Number too high. Guess again"
+    - ELSE (ATTEMPT = SECRET):
+      -Display "Correct! You guessed it"
+      
+   EXIT REPEAT loop
 
-   ELSE (ATTEMPT = SECRET):
-   - Display "Correct! You guessed it"
-   - **EXIT** REPEAT loop
 
       
 4. **END**
